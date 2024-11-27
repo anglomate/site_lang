@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="hu">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Sandbox Android App Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/blogstyle.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <div class="btn-group">
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">Home</a>
+              </li>
+              
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Do I want to live in a glass wall house?
+          </h1>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    
+<div class="main">
+
+      <div class="container">
+
+        <div class="blog">
+
+          <p class="h3">
+            Years ago...
+          </p>
+
+          <p class="blog-text">
+            You would hear about every company, app, etc. collecting data about what you are doing where you are, what you are looking at on your phone, and what you are talking about at any given moment. I wanted to share a picture that I took on my phone with my wife via Bluetooth and my Samsung phone said "You need to switch on location on your device".<br>That was it for me. I had had enough, so I created the Privacy Sandbox app that blocks all the trackers and ads in the background and falsifies the location of the device.<br>When you open a new website, or close the app, even the "necessary" cookies get deleted from all the folders in the background.
+          </p>
+
+          <p class="h3">
+            What's the outcome of all this?
+          </p>
+
+          <p class="blog-text">
+            I never see a relevant ad anymore. In fact, I haven't seen one in many years.<br>If I open a YouTube video from the search results, it doesn't play ads.<br>I can see exactly what spying JavaScripts, etc. got blocked in the background.<br>If I visit a website that tells me that I can read only one article per month for free, because the app doesn't allow it to place the necessary cookie that keeps tracking my activity, I can read as many as I want.
+          </p>
+
+          <p class="h3">
+            Something interesting...
+          </p>
+
+          <p class="blog-text">
+            I have changed from Samsung to CalyxOS. So, it is not only my app that blocks everything, the device itself doesn't allow any spying in the background either.<br>The result is that the battery in this 8 mm thin phone lasts two full days and believe me, it is being used a lot during the day. I spend a lot of time on twitter, I read articles, podcasts are playing for hours every day, etc.<br>It just shows how much spying goes on in the background on a normal phone. Their batteries hardly last a day under normal circumstances.
+          </p>
+
+          <p class="h3">
+            This app is not for everyone
+          </p>
+
+          <p class="blog-text">
+            I use this app for most of my browsing, but sometimes I have to use Firefox, or very rarely Chromium (never Chrome though).<br>I don't use it for sites, where the blocking and cookie deleting could interfere with the functioning of the site. For example filling out multiple page forms, buying tickets, etc.<br>
+The app doesn't store passwords, so if you don't want to type in your username and password every time, use Firefox.<br>Some sites are so badly built that they wouldn't open in this app. These sites are probably not worth visiting at all for obvious reasons, but if you are desperate, use Firefox.
+          </p>
+
+          <p class="h3">
+            Added bonus
+          </p>
+
+          <p class="blog-text">
+            As I said earlier, I listen to a lot of podcasts. The app has a function to download audio files. Any URL loading on a given site that contains an audio file extension will be captured and a popup will ask you whether you want to download the given file. It is extremely helpful if you don't want to stay on a site to listen to an interview, etc. for the whole length with the app open all the time.<br>Apple podcast is a good example. You just start playing the podcast, the app automatically offers you the download and that's it. Once the download starts, you can close the app. The device's downloader function takes it from there.
+          </p>
+
+         </div>
+
+        </div>
+
+      </div>
+               
+  </main>
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">Anglomate</a>
+    </p>
+
+  </footer>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
